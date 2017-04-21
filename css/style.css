@@ -1,0 +1,92 @@
+html {
+  position: relative;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0 0 100px;
+  font-family: Georgia, serif;
+}
+
+h1 {
+  color: #333;
+}
+
+h3 {
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding: 5px;
+  margin: 50px 0px 30px 0px;
+}
+
+h6 {
+  margin-bottom: 50px;
+}
+
+.container-fluid {
+  margin: 0 auto;
+}
+
+.list-group-item {
+  border: none;
+  padding: 2px;
+}
+
+.book {
+  height:150px;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.jumbotron {
+  padding: 20px 40px 10px 40px;
+  margin: 30px auto;
+  width: 65%;
+  background-color: #BD7629;
+  border-radius: 40px;
+}
+
+blockquote:before {
+  quotes: "\201C""\201D""\2018""\2019";
+  font-family: serif;
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.blockquote-reverse {
+  margin-top: 30px;
+  line-height: 0.8;
+  border-right: 5px solid #ccc;
+}
+
+.inline-pic {
+  float: left;
+  padding: 5px 15px;
+}
+
+footer#bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #bd7629;
+}
+
+p#foot {
+  font-size: 0.7em;
+  padding: 17px 20% 0px 0px;
+  float: right;
+}
+
+.nav-logo {
+  height: 15px;
+  position: relative;
+  display: inline;
+  top: -1px;
+}
